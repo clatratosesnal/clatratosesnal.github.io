@@ -1,0 +1,22 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-image: url('../assets/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+main{
+    height: 150vh;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b5d6b;
+    letter-spacing: 2px;
+}
+header .nav__logo img{
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+}
+header .nav__links ul li, a{
+color: white;
+list-style: none;
+font-size: 1.5rem;
+padding: 0px 20px;
+text-decoration: none;
+}

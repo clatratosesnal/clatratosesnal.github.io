@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    font-size: 62.5%;
+    font-family: ppHelvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-around;
+}
+.main__title{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+.main__button{
+    cursor: pointer;
+}
+.main__button button{
+    background-color: #0b5d6b;
+    padding: 15px 30px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+
+}
+.main__button button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.main__button button:hover{
+    background-color: #18a4e1;
+    color: white;
+    cursor: pointer;
+}
