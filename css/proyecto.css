@@ -10,12 +10,6 @@ body{
 html{
     font-size: 62.5%;
 }
-header{
-    position: fixed;
-    top: 0px;
-    right: 0;
-    left: 0;
-}
 main{
     height: 150vh;
     width: 100%;
